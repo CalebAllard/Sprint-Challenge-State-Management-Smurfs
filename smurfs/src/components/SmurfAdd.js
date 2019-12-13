@@ -31,9 +31,9 @@ const SmurfAdd = (props) => {
             <label>Name: 
             <input onChange={handelChange} type="text" name="name" id='name' value={formData.name} /></label>
             <label>Age: 
-            <input onChange={handelChange} type="text" name="age" id='age' /></label>
+            <input onChange={handelChange} type="text" name="age" id='age' value={formData.age} /></label>
             <label>Height: 
-            <input onChange={handelChange} type="text" name="height" id='height' /></label>
+            <input onChange={handelChange} type="text" name="height" id='height' value={formData.height}/></label>
             <button>Add Smurf</button>
         </form>
     );
