@@ -16,3 +16,11 @@ export {
     AXIOS_POST_DELETE_ERROR,
     deleteData
 }from './deleteSmurf';
+export {
+    AXIOS_PUT_DELETE_STARTED,
+    AXIOS_PUT_DELETE_SUCESS,
+    AXIOS_PUT_DELETE_ERROR,
+    TOGLE_EDIT,
+    togleEdit,
+    editData
+} from './editSmurf'

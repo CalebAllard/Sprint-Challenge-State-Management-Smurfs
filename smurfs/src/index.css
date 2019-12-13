@@ -10,3 +10,10 @@ body {
   cursor:pointer;
   color:red;
 }
+.edit{
+  margin: 1rem;
+}
+.edit:hover{
+  cursor:pointer;
+  color:lightgreen;
+}
