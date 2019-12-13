@@ -3,3 +3,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.delete{
+  margin: 1rem;
+}
+.delete:hover{
+  cursor:pointer;
+  color:red;
+}

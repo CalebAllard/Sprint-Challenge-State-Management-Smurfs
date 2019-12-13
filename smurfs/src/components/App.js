@@ -4,7 +4,7 @@ import "./App.css";
 import Smurfs from './Smurfs';
 import SmurfAdd from './SmurfAdd';
 //action imports
-import {getData,postData} from '../actions'
+import {getData,postData,deleteData} from '../actions'
 //react redux imports
 import {connect} from 'react-redux';
 
@@ -23,7 +23,7 @@ class App extends Component {
       <div className="App">
         <h1>My Smurf Village</h1>
         <SmurfAdd state={this.props.post} postData={this.props.postData}/>
-        <Smurfs state={this.props.smurfs} />
+        <Smurfs state={this.props.smurfs} deleteData={this.props.deleteData} />
       </div>
     );
   }
@@ -39,5 +39,5 @@ const mapStateToProps = state => {
 
 export default connect(
   mapStateToProps,
-  {getData,postData}
+  {getData,postData,deleteData}
   )(App);

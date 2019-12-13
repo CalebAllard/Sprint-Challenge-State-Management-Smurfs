@@ -9,4 +9,10 @@ export {
     AXIOS_POST_SUCESS,
     AXIOS_POST_ERROR,
     postData
-} from './addSmurf'
+} from './addSmurf';
+export {
+    AXIOS_POST_DELETE_STARTED,
+    AXIOS_POST_DELETE_SUCESS,
+    AXIOS_POST_DELETE_ERROR,
+    deleteData
+}from './deleteSmurf';
